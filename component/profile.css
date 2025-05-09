@@ -1,0 +1,27 @@
+/* Styles for the container div */
+.profileInfo {
+    background-color: #f9f9f9; /* Light gray background for a clean look */
+    border: 1px solid #ddd; /* Subtle border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Space inside the container */
+    max-width: 300px; /* Limits the width for neatness */
+    margin: 20px auto; /* Centers the container on the page */
+    text-align: center; /* Centers text inside */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+/* Styles for the name paragraph */
+.profileName {
+    font-size: 24px; /* Larger text for the name */
+    font-weight: bold; /* Makes the name stand out */
+    color: #333; /* Dark gray for readability */
+    margin: 0; /* Removes default paragraph margin */
+    margin-bottom: 10px; /* Space below the name */
+}
+
+/* Styles for the age paragraph */
+.profileAge {
+    font-size: 18px; /* Slightly smaller text for the age */
+    color: #666; /* Lighter gray to differentiate from the name */
+    margin: 0; /* Removes default paragraph margin */
+}
